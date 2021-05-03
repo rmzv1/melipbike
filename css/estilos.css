@@ -1,0 +1,821 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url('../fonts/Roboto-Bold.ttf'),
+    url('../fonts/Roboto-Medium.ttf'),
+    url('../fonts/Roboto-Regular.ttf');
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'Roboto';
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 16px;
+}
+
+.header, footer{
+    background-color: #0083B5;
+    
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/*------------estilos del index----------*/
+
+.eslogan{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.eslogan p{
+    margin-bottom: .2em !important;
+}
+
+.logo img{
+    width: 30%;
+}
+
+a {
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+.redes-sociales .icono-whatsapp{
+    color: #00FF00 !important;
+}
+
+.redes-sociales .icono-instagram{
+    color: #FF1170 !important;
+}
+
+.icono-whatsapp i, .icono-instagram i{
+    font-size: 1.6em; 
+}
+
+nav{
+    background-color: #0C1821;    
+}
+
+nav ul, li, a{
+    width: 100%;
+}
+
+.navbar a:hover, .navbar .active{
+    background-color: #2A4265;
+}
+
+.nav-link{
+    color: #fcfcfc !important;
+}
+.carousel-inner > .carousel-item > img {
+    width:100%;
+    height:360px;
+}
+
+.titulo{
+    background:#000000;
+}  
+
+.seccion-videos{
+    background: #0C4566;
+    padding: .5em 0;
+}
+
+.seccion-videos iframe{
+    width: 99%;
+}
+
+.columna-imagenes{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.fondo1 , .fondo2 {
+    height: 300px;
+    width: 100%; 
+}
+
+.fondo1{
+    background: url("../img/fondo-horario.jpg") center;
+    ;
+}
+
+.fondo2{
+    background: url("../img/servicios-inicio.jpg") center;
+}
+
+.informacion .fondo1 p{
+    text-align: start;
+    margin-left: 4em;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.informacion .fondo1 .horario{
+    font-size: 24px;
+    margin-left: 5em;
+}
+
+.informacion .fondo2 p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fondo2 ul li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+    height: 119px;
+    text-align: start
+}
+
+footer .row img  {
+    width: 35%; 
+    margin-left: 3em;
+}
+
+footer .contacto-footer a, footer .redes-footer a, footer .admin-footer a{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: .3rem !important;
+}
+
+footer i{
+    margin-right: .5em;
+    color: #0C1821 !important;
+    font-weight: bold !important;
+}
+
+/*---------------fin estilos del index----------*/
+
+/*--------------- estilos de nosotros-----------*/
+
+.nosotros-informacion .fondo1-nosotros{
+    background: url("../img/fondo1-nosotros.jpg") center;
+    height: 250px;
+    width: 100%;;
+    text-align: start;
+}
+
+.fondo1-nosotros p, .fondo2-nosotros p{
+    width: 90%;
+    margin-top: 2.5em;
+    border: 3px solid #fcfcfc;
+    padding: 1em;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.nosotros-informacion .fondo2-nosotros{
+    background: url("../img/fondo2-nosotros.jpg") center;
+    height: 250px;
+    width: 100%;;
+    text-align: start;
+}
+
+.certficaciones{
+    background: #105C88;
+}
+
+.certficaciones img{
+    width: 95%;
+    border: 3px solid #fcfcfc;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.modal-content {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.modal-footer{
+    justify-content: center !important; 
+}
+
+.modal-footer p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*---------------fin estilos de nosotros----------*/
+
+/*-------------estilos de servicios----------*/
+
+.fondo-servicios{
+    background: url("../img/fondo-servicios1.jpg")center;
+    height: 280px;
+}
+
+.fondo-servicios .informacion-servicios h2{
+    text-align: start;
+}
+
+.fondo-servicios p{
+    text-align: start;
+    font-weight: bold;
+}
+
+.categoria-servicios{
+    background: #0C4566;
+}
+
+.servicio-tecnico, .accesorios, .asesorias{
+    margin: 2em 0;
+}
+
+.card{
+    padding: 1em 0;
+}
+
+.categoria-servicios img{
+    height: 170px;
+    width: 70%;
+    border: 2px solid #fcfcfc;
+    border-radius: 10px;
+}
+
+.card-text, .card-title{
+    text-align: start;
+    color: #fcfcfc;
+}
+
+.card1{
+    background-color: #041722;
+}
+
+.card2{
+    background-color:#072638;
+}
+
+.card3{
+    background-color:#0F547D;
+}
+
+.fondo-servicios2{
+    background: url("../img/fondo-servicios2.jpg")center;
+    height: 300px;
+    font-weight: bold;
+    text-align: start;
+}
+
+/*---------fin estilos de servicios----------*/
+
+/*---------estilos de trabajos----------*/
+.fondo-trabajos{
+    background: url("../img/fondo-trabajos.jpg") center;
+}
+
+.fondo-trabajos p{
+    text-align: start;
+    border: 3px solid #fcfcfc;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.bicicletas-reparadas{
+    background: #0C4566;
+}
+
+.bicicletas-reparadas img{
+    height: 200px;
+    width: 60%;
+    border: 3px solid #fcfcfc;
+}
+
+/*---------estilos de trabajos----------*/
+
+/*--------------estilos contacto---------------*/
+
+.fondo-contacto{
+    background: url("../img/fondo-contacto.jpg");
+    
+}
+
+.informacion-contacto, .formulario{
+    border: 3px solid #fcfcfc;
+    margin: 1em 0;
+    padding: 1em 0;
+    
+}
+
+
+.informacion-contacto h2, .formulario h2{
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.informacion-contacto p{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.formulario input, .formulario textarea{
+    width: 70%;
+    margin: auto;
+}
+
+.formulario button{
+    width: 70%;
+}
+
+.mapa {
+    position: relative;
+    padding-bottom: 70%; 
+    height: 0;
+    overflow: hidden;
+    }
+
+    .mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
+
+
+/*------------fin estilos contacto------------------*/
+
+
+
+/*----------------medias query--------------------*/
+
+@media(max-width: 1100px){
+
+    .card-text{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1024px) { 
+
+/*-----------estilos index------------*/
+
+    .eslogan{
+        font-size: 14px;
+    }
+
+    .logo img{
+        width: 50%;
+    }
+
+    .titulo h1{
+        font-size: 2.2rem !important;
+    }  
+
+    .seccion-videos iframe{
+        width: 90%;
+    }
+   
+    .informacion .fondo1, .informacion .fondo1 p {
+        text-align: center;
+        margin-left: 0; 
+    }
+    
+    .informacion .fondo1 .horario{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    
+    .informacion .fondo2 p{
+        text-align: center;
+        font-weight: bolder;
+    }
+    footer .row img  {
+        width: 45%; 
+        margin-left: 3em;
+    }
+
+    footer .contacto-footer a, footer .redes-footer a, footer .admin-footer a{
+        font-size: 11.5px;
+       
+    }
+
+/*-----------fin estilos index------------*/
+
+/*-----------estilos nosotros------------*/
+
+   .fondo1-nosotros p, .fondo2-nosotros p{
+        font-size: 15px;
+    }
+
+
+/*-----------fin estilos nosotros------------*/
+
+/*---------estilos servicios------------*/
+
+.fondo-servicios h2, .fondo-servicios2 h2{
+    font-size: 1.6rem;
+}
+
+.fondo-servicios p, .fondo-servicios2{
+    font-size: 14px;
+}
+
+.card-text{
+    font-size: 14px;
+}
+
+/*-----------fin estilos servicios------------*/
+
+/*-------------estilos trabajos----------------------*/
+
+.fondo-trabajos h2{
+    font-size: 1.8rem;
+}
+
+.fondo-trabajos p{
+    font-size: 14px;
+}
+
+.titulo h1{
+    font-size: 1.9rem !important;
+}
+
+.bicicletas-reparadas img{
+    height: 140px;
+    width: 50%; 
+}
+
+/*------------fin estilos trabajos-------------------*/
+
+/*-----------------estilos contacto-------------*/
+
+.informacion-contacto h2, .formulario h2{
+    font-size: 1.7rem;   
+}
+
+.informacion-contacto p{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.formulario input, .formulario textarea, .formulario button{
+    width: 80%;
+    margin: auto;
+}
+
+
+/*------------fin estilos contacto-------------*/
+
+}
+
+@media (max-width: 768px){
+
+    /*--------------estilos index---------------*/
+    body{
+        font-size: 12px;
+    }
+
+    .eslogan{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .logo img{
+        width: 50%;
+    }
+
+    .titulo h1{
+        font-size: 2rem !important;
+    }  
+
+    .seccion-videos iframe{
+        width: 99%;
+    }
+
+    .informacion .fondo1, .informacion .fondo1 p {
+        text-align: center;
+        margin-left: 0; 
+        font-size: 24px;
+    }
+    
+    .informacion .fondo1 .horario{
+        font-size: 16px;
+        margin-left: 0;
+    }
+    
+    .informacion .fondo2 p{
+        font-size: 24px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    .fondo2 ul li {
+        font-size: 16px;
+    }
+
+    footer .row img  {
+        width: 55%; 
+        margin-left: 3em;
+    }
+
+    footer .contacto-footer a, footer .redes-footer a, footer .admin-footer a{
+        font-size: 12px;
+    }
+
+    /*-----------fin estilos index------------*/
+
+    /*-----------estilos nosotros------------*/
+
+    .fondo1-nosotros p, .fondo2-nosotros p{
+        font-size: 14px;
+    }
+
+    /*-----------fin estilos nosotros------------*/
+
+    /*----------------estilos trabajos-------------*/
+
+    .fondo-trabajos h2{
+        font-size: 1.6rem;
+    }
+    
+    .fondo-trabajos p{
+        font-size: 13px;
+    }
+    
+    .titulo h1{
+        font-size: 1.7rem !important;
+    }
+
+    .bicicletas-reparadas img{
+        height: 200px;
+        margin: 1em 0;
+    }
+    /*---------------fin estilos trabajos------------*/
+
+    /*--------------estilos contacto------------*/
+
+    .informacion-contacto h2, .formulario h2{
+        font-size: 1.5rem;   
+    }
+    
+    .informacion-contacto p{
+        margin: 1em;
+        font-size: 14px;
+    }
+    
+    .formulario input, .formulario textarea, .formulario button{
+        width: 80%;
+       
+    }
+
+    /*-------------fin estilos contacto---------*/
+
+}
+
+@media (max-width: 767px) { 
+
+    /*--------------estilos index---------------*/
+
+    .logo img{
+        width: 35%;
+    }
+
+    .contacto-footer, .redes-footer{
+        text-align: start;
+    }
+
+    footer .contacto-footer a, footer .redes-footer a, .admin-footer a{
+        font-size: 11px;
+    }
+
+    /*-----------fin estilos index------------*/
+
+    /*-----------estilos nosotros------------*/
+
+    .fondo1-nosotros p, .fondo2-nosotros p{
+        font-size: 13px;
+    }
+
+    .certficaciones .titulo h1 {
+        font-size: 2rem !important;
+    }
+
+    .certficaciones img {
+        width: 70%;
+    }
+
+    .certficaciones h2{
+        font-size: 1.5rem ;
+        margin-top: .5rem !important;
+    }
+
+    /*-----------fin estilos nosotros------------*/
+
+    /*-----------estilos servicios------------*/
+
+    .fondo-servicios{
+        height: 200px;
+    }
+
+    .fondo-servicios h2, .fondo-servicios2 h2{
+        font-size: 1.2rem;
+    }
+
+    .categoria-servicios h5{
+        font-size: 1rem;
+    }
+
+    .categoria-servicios img{
+          height: 120px;
+          width: 50%;
+    }
+    
+    .card-text{
+         font-size: 16px;
+    }
+
+    .fondo-servicios2{
+        height: 220px;  
+   }
+
+   .fondo-servicios p, .fondo-servicios2{
+        font-size: 14px;
+   }
+
+   /*--------------fin estilos servicio----------------*/
+
+   /*----------------estilos trabajos--------------*/
+
+   .fondo-trabajos h2{
+        font-size: 1.5rem;
+    }
+
+    .fondo-trabajos p{
+        font-size: 12px;
+    }
+
+    .titulo h1{
+        font-size: 1.6rem !important;
+    }
+
+   .bicicletas-reparadas img{
+       width: 100%;
+        height: 300px;
+ 
+    }
+
+   /*---------------fin estilos trabajos-------------*/
+
+    /*-------------estilos contacto------------------*/
+
+    .informacion-contacto h2, .formulario h2{
+        font-size: 1.4rem;   
+    }
+    
+    .informacion-contacto p{
+        margin: 1em;
+        font-size: 13px;
+    }
+    
+    .formulario input, .formulario textarea, .formulario button{
+        width: 80%;
+       
+    }
+    
+
+    /*-------------fin estilos contacto-------------*/
+} 
+
+@media (max-width: 576px) {
+
+    /*--------------estilos index---------------*/
+    .logo img{
+        width: 60%;
+    }
+
+    .icono-whatsapp i, .icono-instagram i{
+        font-size: 1.3em; 
+    }
+
+    .seccion-videos iframe{
+        width: 100%;
+        height: 150px;
+    }
+
+    .fondo1{
+        height: 250px;
+        width: 100%; 
+    }
+
+    .informacion .fondo1, .informacion .fondo1 p {
+        font-size: 20px;
+    }
+    
+    .informacion .fondo1 .horario{
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .contacto-footer h5, .redes-footer h5, .admin-footer h5{
+        font-size: 1rem;
+    }
+
+    footer .contacto-footer a, footer .redes-footer a, .admin-footer a{
+        font-size: 10px;
+    }
+
+    /*---------- fin estilos index---------------*/
+
+    /*----------- estilos nosotros---------------*/
+
+    .fondo1-nosotros p, .fondo2-nosotros p{
+        font-size: 11px;
+    }
+
+    /*----------- fin estilos nosotros----------*/
+
+    /*-----------estilos servicios----------*/
+
+
+    .fondo-servicios p, .fondo-servicios2{
+        font-size: 12px;
+    }
+
+    .categoria-servicios img{
+        height: 110px;
+        width: 60%;
+  }
+
+    .card-text{
+        font-size: 12px;
+    }
+
+    /*----------- fin estilos servicios----------*/
+
+    /*-------------------estilos trabajos------------*/
+
+    .fondo-trabajos h2{
+        font-size: 1.8rem;
+    }
+    
+    .fondo-trabajos p{
+        font-size: 12px;
+    }
+    
+    .titulo h1{
+        font-size: 1.8rem !important;
+    }
+
+    .bicicletas-reparadas img{
+        width: 100%;
+         height: 250px;
+  
+     }
+
+    /*-------------fin estilos trabajos---------------*/
+
+    /*-------------estilos contacto------------------*/
+
+    .informacion-contacto h2, .formulario h2{
+        font-size: 1.3rem;   
+    }
+    
+    .informacion-contacto p{
+    
+        font-size: 12px;
+    }
+    
+    .formulario input, .formulario textarea, .formulario button{
+        width: 90%;
+       
+    }
+
+    /*-------------fin estilos contacto-------------*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
